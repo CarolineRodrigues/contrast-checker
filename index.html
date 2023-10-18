@@ -61,12 +61,63 @@
 	 padding: 14px;
 	 border: 4px solid #fff;
 }
- 
+
+
+
+
+
+
+	   .btn.btn-solid-2 {
+	 background: #034ad8;
+	 color: #fff;
+	 border: 2px solid #034ad8;
+}
+ .btn.btn-solid-2:focus {
+	 outline: 2px solid #f408fc;
+	 outline-offset: -8px;
+	 padding: 14px;
+	 border: 4px solid #034ad8;
+}
+ .btn.btn-solid-dark-2 {
+	 background: #fff;
+	 color: #2b363c;
+	 border: 2px solid #fff;
+}
+ .btn.btn-solid-dark-2:focus {
+	 outline: 2px solid #f408fc;
+	 outline-offset: -8px;
+	 padding: 14px;
+	 border: 4px solid #fff;
+}
+ .btn.btn-outline-2 {
+	 background: transparent;
+	 color: #034ad8;
+	 border: 2px solid #034ad8;
+}
+ .btn.btn-outline-2:focus {
+	 outline: 2px solid #f408fc;
+	 outline-offset: -8px;
+	 padding: 14px;
+	 border: 4px solid #034ad8;
+}
+ .btn.btn-outline-dark-2 {
+	 background: transparent;
+	 color: #fff;
+	 border: 2px solid #fff;
+}
+ .btn.btn-outline-dark-2:focus {
+	 outline: 2px solid #f408fc;
+	 outline-offset: -8px;
+	 padding: 14px;
+	 border: 4px solid #fff;
+}
   </style>
 </head>
 <body>
   <main>
     <h1>Contrast Checker</h1>
+
+    <h2>Estes estão a usar a tecnica de mexer no padding, outline por cima do border que é aumentado quando fazemos focus</h2>
     <div class="container">
       <button class="btn btn-solid">Equal color BC FC (solid) </button>
       <button class="btn btn-outline">BC colored FC transparent (outline) </button>        
@@ -75,6 +126,17 @@
     <div class="container-dark">
       <button class="btn btn-solid-dark">Equal color BC FC (solid) </button>
       <button class="btn btn-outline-dark">BC colored FC transparent (outline) </button>        
+    </div>
+
+    <h2>Por o outline muito interior</h2>
+    <div class="container">
+      <button class="btn btn-solid-2">Equal color BC FC (solid) </button>
+      <button class="btn btn-outline-2">BC colored FC transparent (outline) </button>        
+    </div>
+    
+    <div class="container-dark">
+      <button class="btn btn-solid-dark-2">Equal color BC FC (solid) </button>
+      <button class="btn btn-outline-dark-2">BC colored FC transparent (outline) </button>        
     </div>
     
   </main>
