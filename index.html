@@ -98,6 +98,18 @@
 	 padding: 16px;
 	 border: 2px solid #034ad8;
 }
+
+ .btn.btn-solid-2-danger {
+	 background: #d12332;
+	 color: #ffffff;
+	 border: 2px solid #034ad8;
+}
+ .btn.btn-solid-2-danger:focus {
+	 outline: 2px solid #f408fc;
+	 outline-offset: -2px;
+	 padding: 16px;
+	 border: 2px solid #d12332;
+}
  .btn.btn-solid-dark-2 {
 	 background: #FFD966;
 	 color: #2B363C;
@@ -109,14 +121,14 @@
 }
  .btn.btn-outline-2 {
 	 background: transparent;
-	 color: #034ad8;
-	 border: 2px solid #034ad8;
+	 color: #d12332;
+	 border: 2px solid #d12332;
 }
  .btn.btn-outline-2:focus {
 	 outline: 2px solid #f408fc;
 	 outline-offset: -2px;
 	 padding: 16px;
-	 border: 2px solid #034ad8;
+	 border: 2px solid #d12332;
 }
  .btn.btn-outline-dark-2 {
 	 background: transparent;
@@ -141,7 +153,7 @@
   <main>
     <h1>Contrast Checker</h1>
 
-    <h2>Estes estão a usar a tecnica de mexer no padding, outline 2px por cima do border que passa a 4px no focus</h2>
+    <h2>Opção de mexer no padding, outline 2px por cima do border que passa a 4px no focus</h2>
     <div class="container">
       <button class="btn btn-solid">Button Solid Primary </button>
       <button class="btn btn-outline">Button Outline Primary </button> 
@@ -157,8 +169,10 @@
 
     <h2>Opção sem alterar a stroke do border</h2>
     <div class="container">
-      <button class="btn btn-solid-2">Button Primary Solid </button>
-      <button class="btn btn-outline-2">Button Outline Solid </button>        
+      <button class="btn btn-solid-2">Button Solid Primary </button>
+      <button class="btn btn-outline-2">Button Outline Primary </button>
+      <button class="btn btn-solid-2-danger">Button Solid Danger </button>
+      <button class="btn btn-outline-2-danger">Button Outline Danger </button>
     </div>
     
     <div class="container-dark">
