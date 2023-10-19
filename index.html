@@ -88,13 +88,13 @@
 }
 
  .btn.btn-solid-2 {
-	 background: #FBBB3C;
+	 background: #034ad8;
 	 color: #2B363C;
-	 border: 2px solid #FBBB3C;
+	 border: 2px solid #034ad8;
 }
  .btn.btn-solid-2:focus {
 	 outline: 2px solid #f408fc;
-	 outline-offset: -8px;
+	 outline-offset: -2px;
 }
  .btn.btn-solid-dark-2 {
 	 background: #FFD966;
@@ -137,7 +137,7 @@
   <main>
     <h1>Contrast Checker</h1>
 
-    <h2>Estes estão a usar a tecnica de mexer no padding, outline por cima do border que é aumentado quando fazemos focus</h2>
+    <h2>Estes estão a usar a tecnica de mexer no padding, outline 2px por cima do border que passa a 4px no focus</h2>
     <div class="container">
       <button class="btn btn-solid">Button Solid Primary </button>
       <button class="btn btn-outline">Button Outline Primary </button> 
@@ -151,10 +151,10 @@
     </div>
 
 
-    <h2>Por o outline muito interior sem mexer no tamanho do border nem no padding</h2>
+    <h2>Opção sem alterar a stroke do border</h2>
     <div class="container">
-      <button class="btn btn-solid-2">Equal color BC FC (solid) 2 </button>
-      <button class="btn btn-outline-2">BC colored FC transparent (outline) 2 </button>        
+      <button class="btn btn-solid-2">Button Primary Solid </button>
+      <button class="btn btn-outline-2">Button Outline Solid </button>        
     </div>
     
     <div class="container-dark">
